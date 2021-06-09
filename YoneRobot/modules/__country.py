@@ -101,7 +101,7 @@ Time Zones:- {tom}
 Top Level Domain:- {lanester}
 wikipedia:- {wiki}</b>
 
-Gathered By Andrea Beta.</b>
+Gathered By Misschiku_Bot.</b>
 """
     
     
