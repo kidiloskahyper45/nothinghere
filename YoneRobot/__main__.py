@@ -608,7 +608,7 @@ def yone_about_callback(update, context):
 
                  \nHere is the [Owner ^_^](https://t.me/Arpit_Sharma07).
 
-                 \n\nIf you have any question about ❥𝚌𝓱ᵢ𝓴ᵤ♡ , let us know at @ChikkuSupportChat.""",
+                 \n\nIf you have any question about ❥𝚌𝓱ᵢ𝓴ᵤ♡ , let us know at @ChikkuSupport.""",
 
             parse_mode=ParseMode.MARKDOWN,
 
