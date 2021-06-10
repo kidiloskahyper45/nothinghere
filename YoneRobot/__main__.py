@@ -130,7 +130,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 
-ʜᴇʟʟᴏ [🤗](https://telegra.ph/file/9d4fad23d6cd49a1f4924.jpg), ɪᴍ ʏᴏɴᴇ ᴀ ʜɪɢʜʏ ᴀᴅᴠᴀɴᴄᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ʟᴏᴛꜱ ᴏꜰ ᴀᴍᴀᴢɪɴɢ ᴛᴏᴏʟꜱ.
+ʜᴇʟʟᴏ [(•‿•)](https://telegra.ph/file/9d4fad23d6cd49a1f4924.jpg), ɪᴍ ❥𝚌𝓱ᵢ𝓴ᵤ♡ ᴀ ʜɪɢʜʏ ᴀᴅᴠᴀɴᴄᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ʟᴏᴛꜱ ᴏꜰ ᴀᴍᴀᴢɪɴɢ ᴛᴏᴏʟꜱ.
 
 `ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ! ʜɪᴛ` /help   
 
@@ -142,7 +142,7 @@ buttons = [
 
         InlineKeyboardButton(
 
-            text="➕️ ᴀᴅᴅ  ᴄʜɪᴋᴋᴜ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="t.me/misschiku_bot?startgroup=true"),
+            text="➕️ ᴀᴅᴅ  ❥𝚌𝓱ᵢ𝓴ᵤ♡ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="t.me/misschiku_bot?startgroup=true"),
 
     ],
 
@@ -168,7 +168,7 @@ buttons = [
 
 HELP_STRINGS = """
 
-`ʜɪ.. ɪ'ᴍ` [Chikku ^_^](https://telegra.ph/file/9d4fad23d6cd49a1f4924.jpg) 
+`ʜɪ.. ɪ'ᴍ` [❥𝚌𝓱ᵢ𝓴ᵤ♡ ^_^](https://telegra.ph/file/9d4fad23d6cd49a1f4924.jpg) 
 
 `ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..`"""
 
@@ -590,7 +590,7 @@ def yone_about_callback(update, context):
 
         query.message.edit_text(
 
-            text=""" ℹ️ I'm *ᴄʜɪᴋᴋᴜ*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *❥𝚌𝓱ᵢ𝓴ᵤ♡*, a powerful group management bot built to help you manage your group easily.
 
                  \n❍ I can restrict users.
 
@@ -606,9 +606,9 @@ def yone_about_callback(update, context):
 
                  \n\n_yone's licensed under the GNU General Public License v3.0_
 
-                 \nHere is the [💾Repository](https://github.com/noob-kittu/YoneRobot).
+                 \nHere is the [Owner ^_^](https://t.me/Arpit_Sharma07).
 
-                 \n\nIf you have any question about yone, let us know at .""",
+                 \n\nIf you have any question about ❥𝚌𝓱ᵢ𝓴ᵤ♡ , let us know at @ChikkuSupportChat.""",
 
             parse_mode=ParseMode.MARKDOWN,
 
