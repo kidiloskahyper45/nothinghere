@@ -604,7 +604,7 @@ def yone_about_callback(update, context):
 
                  \n❍ I check for admins' permissions before executing any command and more stuffs
 
-                 \n\n_yone's licensed under the GNU General Public License v3.0_
+                 \n\n_❥𝚌𝓱ᵢ𝓴ᵤ♡ licensed under the GNU General Public License v3.0_
 
                  \nHere is the [Owner ^_^](https://t.me/Arpit_Sharma07).
 
@@ -1188,7 +1188,7 @@ def main():
 
         try:
 
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Yes I'm alive 😹")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Heya! am alive" ^_^)
 
         except Unauthorized:
 
