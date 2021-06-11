@@ -14,8 +14,8 @@
   <img src="https://telegra.ph/file/7e61fe06a9c02747249c4.jpg">
 </p>
 
-# YoneRobot
-Me On Telegram [✨Yone✨](https://t.me/YoneRobot)
+# ChikuBot
+Me On Telegram [✨Chiku✨](https://t.me/MissChikuBot)
 
 ## How To Host
 The easiest way to deploy this Bot
