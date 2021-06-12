@@ -344,7 +344,7 @@ def ungban(update: Update, context: CallbackContext):
 
         try:
             member = bot.get_chat_member(chat_id, user_id)
-            if member.status == "kicked":
+            if member.status == "Get lost from here, kicked out":
                 bot.unban_chat_member(chat_id, user_id)
                 ungbanned_chats += 1
 
