@@ -138,12 +138,7 @@ message.reply_text("You don't seem to be referring to a user.")
 
     
 
-    if user_id == 920437078:
-
-        message.reply_text("There is no way I can gban this user.He is my Creator/Developer")
-
-        return
-
+     
     
 
     if int(user_id) in DEV_USERS:
