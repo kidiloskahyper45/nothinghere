@@ -24,7 +24,7 @@ import time
 from random import randint
 from urllib.parse import urlparse
 
-import aiofiles
+
 import aiohttp
 import requests
 import wget
