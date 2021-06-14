@@ -123,9 +123,7 @@ def gban(update, context):
 
 
 user_id, reason = extract_user_and_text(message, args)
-
-
-    'if not user_id:
+ 
 
         message.reply_text("You don't seem to be referring to a user.")
 
