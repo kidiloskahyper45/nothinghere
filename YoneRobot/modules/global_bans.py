@@ -128,7 +128,7 @@ user_id, reason = extract_user_and_text(message, args)
                                                                                                  
 message.reply_text("You don't seem to be referring to a user.")
 
-        return
+     
 
     
 
