@@ -132,11 +132,9 @@ message.reply_text("You don't seem to be referring to a user.")
 
     
 
-      int(user_id) == OWNER_ID:
+        
 
-        message.reply_text("Fuck Offð, Never Going to GBAN my Ownerð¡")
-
-        return
+        
 
     
 
