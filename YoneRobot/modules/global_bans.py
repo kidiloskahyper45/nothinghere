@@ -537,21 +537,21 @@ def __chat_settings__(chat_id, user_id):
     return f"This chat is enforcing *gbans*: `{sql.does_chat_gban(chat_id)}`."
 
 
-GBAN_HANDLER = CommandHandler("gban", gban)
-UNGBAN_HANDLER = CommandHandler("ungban", ungban)
+GBAN_HANDLER = CommandHandler("glban", glban)
+UNGBAN_HANDLER = CommandHandler("unglban", unglban)
 GBAN_LIST = CommandHandler("gbanlist", gbanlist)
 
 GBAN_STATUS = CommandHandler("antispam", gbanstat, filters=Filters.group)
 
 GBAN_ENFORCER = MessageHandler(Filters.all & Filters.group, enforce_gban)
 
-dispatcher.add_handler(GBAN_HANDLER)
-dispatcher.add_handler(UNGBAN_HANDLER)
+dispatcher.add_handler(GlBAN_HANDLER)
+dispatcher.add_handler(UNGlBAN_HANDLER)
 dispatcher.add_handler(GBAN_LIST)
 dispatcher.add_handler(GBAN_STATUS)
 
 __mod_name__ = "Anti-Spam"
-__handlers__ = [GBAN_HANDLER, UNGBAN_HANDLER, GBAN_LIST, GBAN_STATUS]
+__handlers__ = [GlBAN_HANDLER, UNGlBAN_HANDLER, GBAN_LIST, GBAN_STATUS]
 
 if STRICT_GBAN:  # enforce GBANS if this is set
     dispatcher.add_handler(GBAN_ENFORCER, GBAN_ENFORCE_GROUP)
