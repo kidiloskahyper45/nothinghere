@@ -130,7 +130,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 
-ʜᴇʟʟᴏ [(•‿•)](https://telegra.ph/file/9d4fad23d6cd49a1f4924.jpg), ɪᴍ ❥𝚌𝓱ᵢ𝓴ᵤ♡ ᴀ ʜɪɢʜʏ ᴀᴅᴠᴀɴᴄᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ʟᴏᴛꜱ ᴏꜰ ᴀᴍᴀᴢɪɴɢ ᴛᴏᴏʟꜱ.
+ʜᴇʟʟᴏ [(•‿•)](https://telegra.ph/file/8c0e17d8a0ece04dc9458.jpg ), ɪᴍ Tezza ᴀ ʜɪɢʜʏ ᴀᴅᴠᴀɴᴄᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ʟᴏᴛꜱ ᴏꜰ ᴀᴍᴀᴢɪɴɢ ᴛᴏᴏʟꜱ.
 
 `ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ! ʜɪᴛ` /help   
 
@@ -142,7 +142,7 @@ buttons = [
 
         InlineKeyboardButton(
 
-            text="➕️ ᴀᴅᴅ  ❥𝚌𝓱ᵢ𝓴ᵤ♡ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="t.me/misschiku_bot?startgroup=true"),
+            text=" ᴀᴅᴅ  ❥𝚌𝓱ᵢ𝓴ᵤ♡ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ", url="t.me/misstezza_bot?startgroup=true"),
 
     ],
 
@@ -168,15 +168,15 @@ buttons = [
 
 HELP_STRINGS = """
 
-`ʜɪ.. ɪ'ᴍ` [❥𝚌𝓱ᵢ𝓴ᵤ♡ ^_^](https://telegra.ph/file/9d4fad23d6cd49a1f4924.jpg) 
+`ʜɪ.. ɪ'ᴍ` [❥𝚌𝓱ᵢ𝓴ᵤ♡ ^_^](https://telegra.ph/file/65e6795b106867d77d179.jpg) 
 
 `ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..`"""
 
-yone_IMG = "https://telegra.ph/file/9d4fad23d6cd49a1f4924.jpg"
+yone_IMG = "https://telegra.ph/file/94def6368c619acae55d5.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 
- You can support the project via [Paypal](#) or by contacting @Arpit_Sharma07 \
+ You can support the project via [Paypal](#) or by contacting @rosebakthan \
 
  Supporting isnt always financial! \
 
@@ -590,7 +590,7 @@ def yone_about_callback(update, context):
 
         query.message.edit_text(
 
-            text=""" ℹ️ I'm *❥𝚌𝓱ᵢ𝓴ᵤ♡*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *Tezza*, a powerful group management bot built to help you manage your group easily.
 
                  \n❍ I can restrict users.
 
@@ -604,11 +604,11 @@ def yone_about_callback(update, context):
 
                  \n❍ I check for admins' permissions before executing any command and more stuffs
 
-                 \n\n_❥𝚌𝓱ᵢ𝓴ᵤ♡ licensed under the GNU General Public License v3.0_
+                 \n\n_Tezza licensed under the GNU General Public License v3.0_
 
-                 \nHere is the [Owner ^_^](https://t.me/Arpit_Sharma07).
+                 \nHere is the [Owner ^_^](https://t.me/rosebakthan).
 
-                 \n\nIf you have any question about ❥𝚌𝓱ᵢ𝓴ᵤ♡ , let us know at @ChikuSupport.""",
+                 \n\nIf you have any question about Tezza , let us know at @rosebakthan.""",
 
             parse_mode=ParseMode.MARKDOWN,
 
@@ -656,7 +656,7 @@ def Source_about_callback(update, context):
 
         query.message.edit_text(
 
-            text=""" Hi..🤗 I'm *ᴄʜɪᴋᴋᴜ*
+            text=""" Hi..🤗 I'm *Tezza*
 
                  \nHere is the [Source Code](https://github.com/Noob-kittu/YoneRobot) .""",
 
