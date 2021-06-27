@@ -1023,7 +1023,7 @@ def settings_button(update: Update, context: CallbackContext):
         query.message.delete()
 
     except BadRequest as excp:
-
+        print(excp)
         if excp.message not in [
 
             "Message is not modified",
